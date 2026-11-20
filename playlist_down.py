@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+"""
+This script takes input argument of a playlist, output folder, and padding for zeros.
+Then it places all videos in a given playlist into said folder prefixed with their
+number in the playlist.
+"""
+
 # imports
 import argparse
 import os
